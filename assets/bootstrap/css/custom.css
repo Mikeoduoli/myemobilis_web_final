@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/assets/images/image1_bg.png");
+    background-size: cover;
+    height: 100vh;
+    text-font: Comic San MS;
+}
+/*.wallpaper{
+    background-image: url("/assets/images/image1_bg.png");
+    height: auto;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    transition: 1s ease-in-out;
+}*/
+a{
+    text-decoration: none;
+}
+.nav_buttons{
+    background-color: #7abaff;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    border: unset;
+    font-size: 13px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "Comic Sans MS";
+    text-decoration: none;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-left: auto;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*img {
+    border-radius: 50%;
+}*/
+.explore{
+    float: bottom;
+    width: 25%;
+    padding: 5px;
+    margin-left: auto;
+    border-radius: 25px;
+}
+.row{
+    margin-left: 0;
+
+}
+
+.b_services::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column {
+    float: left;
+    width: 15%;
+    padding: 5px;
+    margin-left: 20vh;
+    border-radius: 5px;
+    font-family: "Comic Sans MS";
+}
+/*.img-bg{
+    background-image: url('/assets/images/image1_bg.png');
+}*/
+.carousel-inner img{
+    width: 10vh
+}
+.text-left{
+    color: greenyellow;
+    padding-left: 5px;
+    border-left: white;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.text-center1{
+    color: greenyellow;
+}
+.carousel-item{
+    height: 25%;
+    width: 1300px;
+    padding: 25px;
+    background-position: center;
+}
